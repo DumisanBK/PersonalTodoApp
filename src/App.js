@@ -37,7 +37,7 @@ function App() {
     <div className="app">
       <div className="container">
         <h1 className="text-center mb-4">Todo List</h1>
-        {`Welcome Dumie, today is ${new Date().toLocaleString()}`}
+        {`Hello there!, today is ${new Date().toLocaleString()}`}
         <FormTodo addTodo={addTodo} />
         <div>
           {todos.map((todo, index) => (
